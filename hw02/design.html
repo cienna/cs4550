@@ -8,19 +8,20 @@
         <h1>User-first</h1>
         <h3>As a new user, I need to be able to create an account.</h3>
         <p>Visit site</p>
-        <p>Click ‘create account’</p>
-        <p>Enter personal info (name, username, password, email)</p>
-        <p>Create account</p>
+        <p>Enter personal info (name, username, password, email) in provided form fields</p>
+        <p>Click 'create account'</p>
         <h3>As an existing user, I need to be able to log in.</h3>
         <p>Visit site</p>
-        <p>Enter info and click ‘login’ button</p>
+        <p>Enter username/password info in available fields</p>
+        <p>Click ‘login’ button</p>
         <h3>As an existing user, I need to be able to follow/unfollow other users.</h3>
         <p>Visit another user’s page</p>
         <p>Click ‘follow’ button</p>
         <h3>As an existing user, I need to be able to shout into the void.</h3>
         <p>Visit site</p>
         <p>Go to your page</p>
-        <p>Type message in text box, hit ‘submit’ button</p>
+        <p>Type message in text box</p>
+        <p>Hit ‘submit’ button</p>
         <h3>As an existing user, I need to be able to delete poorly thought out posts.</h3>
         <p>Visit site</p>
         <p>Go to your page</p>
@@ -33,7 +34,8 @@
         <p>Submit the post</p>
         <h3>As an existing user, I need to be able to search hashtags.</h3>
         <p>Go to site</p>
-        <p>Type desired hashtag in the search bar, press enter or click the 'Do it' button</p>
+        <p>Type desired hashtag in the search bar</p>
+        <p>Press enter or click the 'Do it' button</p>
 
         <p>&nbsp;</p>
 
@@ -41,27 +43,32 @@
 
         <h3>User</h3>
         <p>Name</p>
-        <p>Username - unique</p>
+        <p>Username - unique, not changeable after account creation</p>
         <p>Password</p>
         <p>Email - unique</p>
+        <p>The most relevant page for this attribute is new/edit, which will be a form with type-in fields. Users won't be able to edit username after account creation, but everything else will be editable. An index page will show many users when one searches, but will display searched users' usernames, actual names, and most recent posts.</p>
 
         <h3>Profile</h3>
         <p>User</p>
         <p>List of posts</p>
         <p>List of followers</p>
         <p>List of users they’re following</p>
+        <p>A profile page will show the posts this user has made in the center of the page, with modules or tabs off to the side to show users this user is following and being followed by.</p>
 
         <h3>Post</h3>
         <p>Message</p>
-        <p>Timestamp</p>
+        <p>Timestamp - system generated</p>
         <p>User</p>
+        <p>The create post page will have one large text box and a subnit button. An index of posts will show when someone searches posts; many posts from many different users will appear. A timestamp will appear in an off color since it's not the focus, post content is. A show page will show one post's message, timestamp, and the name of the user who posted it. The user's name will link to their profile.</p>
 
         <h3>Follow</h3>
         <p>The following user</p>
         <p>The user being followed</p>
+        <p>Follows won't have their own page on the site, but an index-like view will be a part of user's profiles. To follow or unfollow someone, a user will need to visit their page and click an icon.</p>
 
         <h3>Feed</h3>
         <p>List of posts</p>
+        <p>This is an index of posts, relevant either because a user is following the people who created the posts, or the user searched a term related to the posts.</p>
 
     </body>
 </html>
